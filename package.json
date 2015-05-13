@@ -1,0 +1,25 @@
+{
+  "name": "mgs",
+  "version": "1.0.0",
+  "description": "The Mango CLI helps create and deploy mango sites to the mangoictcloud.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "mgs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mango-ict/mgs.git"
+  },
+  "keywords": [
+    "mango",
+    "sys",
+    "mango",
+    "cli"
+  ],
+  "author": "Gerhard Richard Edens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mango-ict/mgs/issues"
+  },
+  "homepage": "https://github.com/mango-ict/mgs"
+}
