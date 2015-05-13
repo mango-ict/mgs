@@ -1,6 +1,6 @@
 {
   "name": "mgs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Mango CLI helps create and deploy mango sites to the mangoictcloud.com",
   "main": "main.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/mango-ict/mgs/issues"
   },
-  "homepage": "https://github.com/mango-ict/mgs"
+  "homepage": "https://github.com/mango-ict/mgs",
+  "bin" : {
+     "mgs": "main.js"
+  }
 }
