@@ -1,14 +1,25 @@
 {
   "name": "mgs",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "preferGlobal": "true",
   "description": "The Mango CLI helps create and deploy mango sites to the mangoictcloud.com",
-  "main": "main.js",
+  "main": "./bin/mgs",
+  "engines": {
+    "node": ">=0.9.9"
+  },
+  "engine-strict": true,
+  "bin" : {
+     "mgs": "./bin/mgs"
+  },
   "scripts": {
-    "test": "mgs"
+    "test": "jasmine-node --color spec"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mango-ict/mgs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mango-ict/mgs/issues"
   },
   "keywords": [
     "mango",
@@ -17,12 +28,6 @@
     "cli"
   ],
   "author": "Gerhard Richard Edens",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mango-ict/mgs/issues"
-  },
-  "homepage": "https://www.mangoict.com/docs_mgs",
-  "bin" : {
-     "mgs": "main.js"
-  }
+  "license": "Apache version 2.0",
+  "homepage": "https://www.mangoict.com/docs_mgs"
 }
