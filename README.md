@@ -10,3 +10,10 @@ To install the Mango ICT - CLI you can use the following NPM command.
 ```
 npm install mgs -g
 ```
+
+## License
+
+  [MIT](LICENSE)
+  
+[npm-image]: https://img.shields.io/npm/v/express.svg
+[npm-url]: https://npmjs.org/package/express
