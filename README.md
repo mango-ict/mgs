@@ -15,7 +15,5 @@ npm install mgs -g
 
   [MIT](LICENSE)
   
-[npm-image]: https://img.shields.io/npm/v/express.svg
-[npm-url]: https://npmjs.org/package/express
-[downloads-image]: https://img.shields.io/npm/dm/express.svg
-[downloads-url]: https://npmjs.org/package/express
+[npm-image]: https://img.shields.io/badge/npm-v0.12.2-brightgreen.svg
+[npm-url]: https://npmjs.org/package/mgs
