@@ -1,3 +1,7 @@
+# Important!
+
+We are still heavily developing this tool. There is an NPM package registered but this is to protect the project begin available at time of release!
+
 # mgs
 The Mango ICT - CLI helps you create and deploy mango websites to the mangoictcloud.com.
 
@@ -5,11 +9,12 @@ The Mango ICT - CLI helps you create and deploy mango websites to the mangoictcl
 [![Node Version][node-image]][node-url]
   
 ## Installation
-To install the Mango ICT - CLI you can use the following NPM command.
+To install the Mango ICT - CLI you just need to type in the following.
 
 ```
 npm install mgs -g
 ```
+
 
 ## License
 
