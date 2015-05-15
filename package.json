@@ -8,8 +8,8 @@
     "node": ">=0.9.9"
   },
   "engine-strict": true,
-  "bin" : {
-     "mgs": "./bin/mgs"
+  "bin": {
+    "mgs": "./bin/mgs"
   },
   "scripts": {
     "test": "jasmine-node --color spec"
@@ -29,5 +29,12 @@
   ],
   "author": "Gerhard Richard Edens",
   "license": "Apache version 2.0",
-  "homepage": "https://www.mangoict.com/docs_mgs"
+  "homepage": "https://www.mangoict.com/docs_mgs",
+  "dependencies": {
+    "bauer-zip": "^1.0.2",
+    "octonode": "^0.6.17",
+    "prompt": "^0.2.14",
+    "request": "^2.55.0",
+    "sqlite3": "^3.0.8"
+  }
 }
