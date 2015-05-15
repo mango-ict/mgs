@@ -15,6 +15,33 @@ To install the Mango ICT - CLI you just need to type in the following.
 npm install mgs -g
 ```
 
+Creating a mango website is very easy, first make a new directory.
+
+```
+mkdir testsite
+cd testsite
+```
+
+Now lets add a MangoICT user to your project to be able to upload to the server.
+
+```
+mgs addUser
+```
+
+Start with the mangoboilerplate for your MangoICT website, lets initialise the new project.
+
+```
+mgs init
+```
+
+Now lets push this baby to the mangoictcloud.com cloud webserver.
+
+```
+mgs push
+```
+
+And there you go.. You have just build your first juicy mango website.
+Do you have changes? Just use the push command to commit your changes to the server.
 
 ## License
 
