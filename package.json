@@ -1,6 +1,6 @@
 {
   "name": "mgs",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "preferGlobal": "true",
   "description": "The Mango CLI helps create and deploy mango sites to the mangoictcloud.com",
   "main": "./bin/mgs",
